@@ -14,7 +14,7 @@ function App() {
       <NavigationProvider>
         <section className="flex overflow-x-hidden">
           <Navigation />
-          <main className="w-full">
+          <main className="w-full flex flex-col">
             <AlbumBanner />
             <AlbumList />
             <Player />

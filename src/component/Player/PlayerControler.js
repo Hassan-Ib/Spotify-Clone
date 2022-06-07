@@ -6,7 +6,6 @@ import {
   IoPlaySkipForward,
   IoPlayForward,
   IoPause,
-  IoPlay,
   IoShuffle,
   IoRepeat,
 } from "react-icons/io5";
@@ -62,7 +61,7 @@ const ControlButton = ({ label, text, className = " ", children }) => {
   return (
     <button
       aria-label={label}
-      className={`bg-gradient-to-tr from-white/0 to-black/50  bg-clip-text opacity-70 text-3xl  ${className}`}>
+      className={`bg-gradient-to-tr from-white/0 to-black/50  bg-clip-text opacity-70 sm:text-xl md:text-3xl  ${className}`}>
       {text} {children}
     </button>
   );

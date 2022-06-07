@@ -12,8 +12,8 @@ const Sidebar = () => {
       <section className="flex flex-col text-2xl gap-8 items-center opacity-90">
         {/* go pro */}
 
-        <button className="text-xs ">
-          <FaCrown className="mx-auto mb-[2px] text-2xl " />
+        <button className="text-xs  min-w-max">
+          <FaCrown className="mx-auto mb-[4px] text-2xl " />
           <span className="opacity-70">Go</span> Pro
         </button>
 

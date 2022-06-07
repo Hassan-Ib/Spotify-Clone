@@ -4,7 +4,7 @@ const PlayerMusicProgress = () => {
       {/* current time  */}
       <p>1:24</p>
       {/* progress */}
-      <div className="flex-1 h-[.4rem] bg-white/30 rounded-md overflow-hidden">
+      <div className="flex-1 h-[.3rem] md:h-[.4rem] bg-white/30 rounded-md overflow-hidden">
         <div className="bg-white h-full w-[60%]"></div>
       </div>
       {/* duration */}
